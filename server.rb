@@ -73,11 +73,11 @@ class Fobless < Sinatra::Base
     end
   end
 
-  def sound_file
-    if ENV['MP3_FILE']
-      ENV['MP3_FILE']
+  def keypad_code
+    if ENV['KEYPAD_CODE']
+      ENV['KEYPAD_CODE']
     else
-      raise "No valid sound file"
+      "www9"
     end
   end
 

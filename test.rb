@@ -31,10 +31,7 @@ describe 'Fobless' do
     expect(last_response).to be_ok
     expect(last_response.header['Content-Type']).to include('application/xml;charset=utf-8')
     expect(last_response.body).to have_xpath('/Response')
-    expect(last_response.body).to have_xpath('//Pause')
-    expect(last_response.body).to have_xpath('//Pause/@length').with_text(3)
-    expect(last_response.body).to have_xpath('//Play/@loop').with_text("2")
-    expect(last_response.body).to have_xpath('//Play/.').with_text(ENV['MP3_FILE'])
+    expect(last_response.body).to have_xpath('//Play/@digits').with_text(ENV['KEYPAD_CODE'])
   end
 
   it "text messages user when access is granted" do
