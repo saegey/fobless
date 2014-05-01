@@ -1,8 +1,9 @@
 # Fobless
 > Auto access for keypad security buildings
+[![Build Status](https://travis-ci.org/saegey/fobless.svg?branch=master)](https://travis-ci.org/saegey/fobless)
 
 ## Requirements
-- Setup [Twilio account](http://twilio.com) with phone number
+- [Twilio account](http://twilio.com) with phone number
 - Redis
 
 ## Installing

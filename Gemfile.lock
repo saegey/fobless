@@ -19,6 +19,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.0.4)
     redis (3.0.7)
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
@@ -58,6 +59,7 @@ DEPENDENCIES
   newrelic_rpm
   nokogiri
   rack-test
+  rake
   rspec
   rspec-xml
   sidekiq

@@ -1,0 +1,17 @@
+branches:
+  only:
+  - master
+env:
+  global:
+  - MY_PHONE_NUMBER=500-555-5006
+  - KEYPAD_CODE=www9
+  - APP_PHONE_NUMBER=+15005550006
+  - AUTHORIZED_NUMBERS=+123456789012,+134567890123
+  - secure: lVumdbbmZy9thVDrCbD66oRLlccIup6vEEHNWcY4ZIzpOO2Cnb4J2dyWauE9o3+TqFxrllSvwbUZ9+xpdLGmNKDWDPUKqG8jBDcSjKyeNqP1RC2IuUOJUnrQcDGx3M1qHZzHltvW6DX9bLhVyItpkoA6RJ3gwmWgccMTjLdEXl4=
+  - secure: KXb5l8HRUzJ67qonfGoEUlHSDu91LVg8Jwn3EYIXtcTkszsyFfQ5xOlS5CVuc6mbnpeVzbu4Noe5xyb+YFRTUdaINRTFpdbQ8yCFlzQSEWM4L6XwYXct4Y4w8sDciTbBkDjSW1jJ0KhcNJscMGo1ef9GRLfXQSfSTkxxl0//BwE=
+language: ruby
+rvm:
+  - 2.0.0
+notifications:
+  email:
+    - adam.saegebarth@gmail.com
