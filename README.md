@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/saegey/fobless.svg?branch=master)](https://travis-ci.org/saegey/fobless)
 [![Code Climate](https://codeclimate.com/github/saegey/fobless.png)](https://codeclimate.com/github/saegey/fobless)
 [![Coverage Status](https://coveralls.io/repos/saegey/fobless/badge.png)](https://coveralls.io/r/saegey/fobless)
+[![Dependency Status](https://gemnasium.com/saegey/fobless.svg)](https://gemnasium.com/saegey/fobless)
 
 ## Requirements
 - [Twilio account](http://twilio.com) with phone number
