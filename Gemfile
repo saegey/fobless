@@ -14,6 +14,7 @@ group :test do
   gem 'rspec'
   gem 'rack-test'
   gem 'rake'
+  gem 'coveralls'
 end
 
 # api

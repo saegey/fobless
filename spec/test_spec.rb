@@ -5,11 +5,13 @@ require 'rspec'
 require 'rack/test'
 require 'nokogiri'
 require 'sidekiq/testing'
+require 'coveralls'
 
 describe 'Fobless' do
   include Rack::Test::Methods
 
   Sidekiq::Testing.fake!
+  Coveralls.wear!
 
   def app
     Fobless.new
