@@ -15,3 +15,4 @@ rvm:
 notifications:
   email:
     - adam.saegebarth@gmail.com
+bundler_args: --without production

@@ -5,7 +5,9 @@ gem 'sinatra'
 gem 'builder'
 
 #monitoring
-gem 'newrelic_rpm', group: :production
+group :production do
+  gem 'newrelic_rpm'
+end
 
 # testing
 group :test do
