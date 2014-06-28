@@ -68,6 +68,12 @@ describe 'Fobless' do
     expect(SmsWorker.jobs.size).to eq(0)
   end
 
+  it "should return awesome for heartbeat url" do
+    get "/heartbeat"
+    expect(last_response).to be_ok
+    expect(last_response.body).to eq("awesome")
+  end
+
   private
 
   def escaped_number

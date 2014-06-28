@@ -47,6 +47,10 @@ class Fobless < Sinatra::Base
     end
   end
 
+  get '/heartbeat' do
+    "awesome"
+  end
+
   private
 
   def twilio_account_sid
