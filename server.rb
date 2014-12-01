@@ -23,7 +23,7 @@ class SmsWorker
 end
 
 class Fobless < Sinatra::Base
-  if ENV['NEW_RELIC_ENABLED']
+  if ENV['NEW_RELIC_LICENSE_KEY']
     configure :production do
       require 'newrelic_rpm'
     end
