@@ -14,6 +14,10 @@ def send_text_message(body)
   })
 end
 
+Sidekiq.configure_client do |config|
+  config.redis = { url: ENV['REDISTOGO_URL'] }
+end
+
 class SmsWorker
   include Sidekiq::Worker
 
